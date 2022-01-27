@@ -79,6 +79,8 @@ public class CardTrick
     {
 
         System.out.println(s);
+        System.out.println();
+        System.out.println("Hello! My name is Dipu Dodiya. I am studying Diploma in Computer Programming at Sheridan College. This is my second Semester.");
     }
             
 }
