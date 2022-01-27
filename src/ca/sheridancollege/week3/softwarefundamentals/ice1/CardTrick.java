@@ -72,8 +72,10 @@ public class CardTrick
         {
             PrintInfo("\nYour Card match is not found in the hand of random cards :(");
         }
-        //sc.close();        
+                
     }
+    
+    //"I'm done!"
     
     private static void PrintInfo(String s) 
     {
