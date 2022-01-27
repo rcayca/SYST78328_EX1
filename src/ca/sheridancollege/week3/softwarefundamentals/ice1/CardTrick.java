@@ -84,5 +84,6 @@ public class CardTrick {
 
     private static void PrintInfo(String s) {
         System.out.println(s);
+        System.out.println("This is the end of the project..! Happy coding..");
     }
 }
