@@ -6,6 +6,10 @@
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
+import java.util.Random;
+import java.util.Scanner;
+
+
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
  * and then asks the user to pick a card and searches the array of cards
@@ -32,8 +36,8 @@ System.out.println("Please enter any number between 1 to 13:");
 int num = scanner.nextInt();
 ab.setValue(num);
 System.out.println("Please select the card: \n1) Hearts \n2) Diamonds \n3) Spades \n4) Clubs");
-int r = scanner.nextInt();
-switch (r) {
+int o = scanner.nextInt();
+switch (o) {
 case 1:
 ab.setSuit("Hearts");
 break;
@@ -57,6 +61,7 @@ if (count >= 1)
 PrintInfo("Card is matched");
 else 
 PrintInfo("Card is not matched");
+// I am done
     
 private static void PrintInfo(String string) {
 System.out.println(string);
