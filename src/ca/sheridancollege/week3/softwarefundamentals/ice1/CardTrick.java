@@ -26,63 +26,60 @@ public class CardTrick
         
         Card[] magicHand = new Card[7];
             
-            for (int i=0; i<magicHand.length; i++)
-            {
-        	Card c = new Card();
-        	
-        	Random randomGenerater = new Random();   
-        	
-        	int cardValueRandomNumber = randomGenerater.nextInt((13 - 1) + 1) + 1;            
-                 c.setValue(cardValueRandomNumber);
-            
-                int cardValueRandomSuit = randomGenerater.nextInt(Card.SUITS.length);
-                c.setSuit(Card.SUITS[cardValueRandomSuit]);
+        for (int i=0; i<magicHand.length; i++)
+        {
+            Card c = new Card();
 
-                magicHand[i] = c;
-             //System.out.println(magicHand[i].getValue());
-             //System.out.println(magicHand[i].getSuit());
-            }        
+            Random randomGenerater = new Random();   
+
+            int cardValueRandomNumber = randomGenerater.nextInt((13 - 1) + 1) + 1;            
+             c.setValue(cardValueRandomNumber);
+
+            int cardValueRandomSuit = randomGenerater.nextInt(Card.SUITS.length);
+            c.setSuit(Card.SUITS[cardValueRandomSuit]);
+
+            magicHand[i] = c;
+         //System.out.println(magicHand[i].getValue());
+         //System.out.println(magicHand[i].getSuit());
+        }        
         
-            Card userHand = new Card();
+        Card userHand = new Card();
 
-            Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-            System.out.println("Choose Card Number from 1 to 13");
-            int userChoosenCardValue = sc.nextInt();            
-            userHand.setValue(userChoosenCardValue);
+        System.out.println("Choose Card Number from 1 to 13");
+        int userChoosenCardValue = sc.nextInt();            
+        userHand.setValue(userChoosenCardValue);
 
-            System.out.println("\nChoose Card Suit from:\n 1 = \"Hearts\"\n 2 = \"Diamonds\"\n 3 = \"Spades\"\n 4 = \"Clubs\"");
-            int r1 = sc.nextInt();
-            userHand.setSuit(Card.SUITS[r1-1]);
+        System.out.println("\nChoose Card Suit from:\n 1 = \"Hearts\"\n 2 = \"Diamonds\"\n 3 = \"Spades\"\n 4 = \"Clubs\"");
+        int r1 = sc.nextInt();
+        userHand.setSuit(Card.SUITS[r1-1]);
 
-            //System.out.println(userHand.getValue());
-           // System.out.println(userHand.getSuit());      
-        
-            int a = 0;
-            for (int i=0; i<magicHand.length; i++)
-            {
-                if(magicHand[i].getValue() == userHand.getValue() && magicHand[i].getSuit() == userHand.getSuit())
-                {
-                    a++;
-                }
+        //System.out.println(userHand.getValue());
+       // System.out.println(userHand.getSuit());      
+
+        int a = 0;
+        for (Card magicHand1 : magicHand) {
+            if (magicHand1.getValue() == userHand.getValue() && (magicHand1.getSuit().equals(userHand.getSuit()))) {
+                a++;
             }
-            if(a >= 1)
-            {
-                    PrintInfo("\nYour Card match is found in the hand of random cards :)");
-            }
-            else
-            {
-                    PrintInfo("\nYour Card match is not found in the hand of random cards :(");
-            }
-            sc.close();
-        
-        
+        }
+        if(a >= 1)
+        {
+            PrintInfo("\nYour Card match is found in the hand of random cards :)");
+        }
+        else
+        {
+            PrintInfo("\nYour Card match is not found in the hand of random cards :(");
+        }
+        //sc.close();        
     }
-            private static void PrintInfo(String s) 
-            {
-		
-                System.out.println(s);
-            }
+    
+    private static void PrintInfo(String s) 
+    {
+
+        System.out.println(s);
+    }
             
 }
     
