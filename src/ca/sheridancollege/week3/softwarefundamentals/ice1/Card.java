@@ -1,5 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
+ * Date 2022-01-27
+ * Student number 991654114
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -13,7 +14,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
  * @author dancye
- * @modified by Megha Patel
+ * @modified by Sachin Virdi
  * 
  */
 public class Card {

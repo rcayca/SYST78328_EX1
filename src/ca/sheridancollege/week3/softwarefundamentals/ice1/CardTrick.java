@@ -1,5 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
+ * Date 2022-01-27
+ * Student number 991654114
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -10,7 +11,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * and then asks the user to pick a card and searches the array of cards
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author dancye
- * @modified by Megha Patel
+ * @modified by Sachin Virdi
  * 
  */
 public class CardTrick {
