@@ -51,7 +51,7 @@ public class CardTrick {
          }
     
     private static void PrintInfo(String s) {
-    
+        System.out.println(s);
     
 }
 }
