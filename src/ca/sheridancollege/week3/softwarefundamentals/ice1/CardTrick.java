@@ -41,13 +41,17 @@ public class CardTrick {
       boolean result = true;
       if (suit == Win.getSuit() && value == Win.getValue()) {
             result = true;
-            System.out.println("You win");
+            PrintInfo("You win");
 
         } else {
             result = false;
-            System.out.println("Try again");
+            PrintInfo("Try again");
         }
         
          }
     
+    private static void PrintInfo(String s) {
+    
+    
+}
 }
