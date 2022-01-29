@@ -27,15 +27,16 @@ public class CardTrick {
         {            
             Card c = new Card();
             
-            c.setSuit(Card.SUITS[(int)Math.round(Math.random()*3)]);
+            c.setSuit(Card.SUITS[(int)Math.round(Math.random()*3)]); //setting the suit randomly
             String suit = c.getSuit();
-            c.setValue((int)Math.round(1 + Math.random()*12)); 
+            c.setValue((int)Math.round(1 + Math.random()*12)); //setting the value of the card randomly
             int num = c.getValue();
-            magicHand[i] = c;
+            magicHand[i] = c; //adding the card object into the array
             
            // System.out.println(num + suit); Printed the cards for debugging.
         }
            
+        //Asking user for a card
         System.out.println("Enter the suit for the card (The first Letter must be Capital)");
         String usuit = hai.nextLine();
         
@@ -43,7 +44,7 @@ public class CardTrick {
         int ucard = hai.nextInt();
         
         System.out.println("The card you picked is the "+ucard+ " of "+usuit);
-        int tally = 0;
+        int tally = 0; //this is used for checking
         
         for(int i = 0; i < magicHand.length;i++)
         {
