@@ -58,9 +58,8 @@ public class Card {
      return (value+""+suit) ;
     }
     public String Info(){
-
+       
        String Info = "Hello my name is Abhishek Bhattarai, I am in 2nd semester Computer programming course";
         return Info;
    }
-
 }
