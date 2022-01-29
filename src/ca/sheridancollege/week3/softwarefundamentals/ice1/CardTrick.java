@@ -25,9 +25,9 @@ public class CardTrick {
     
     public static void main(String[] args) {
 
-        Card[] magicHand = new Card[7];
+        Card[] myCards = new Card[7];
         
-        for (int index = 0; index < magicHand.length; index++) {
+        for (int index = 0; index < myCards.length; index++) {
 
             // Create Object
             Card card = new Card();
@@ -36,7 +36,7 @@ public class CardTrick {
             card.setSuit(Card.SUITS[(int)((Math.random() * (4 - 0)) + 0)]);
             card.setValue((int)((Math.random() * (14 - 1)) + 1));
 
-            magicHand[index] = card;
+            myCards[index] = card;
         }
 
         System.out.println("Please pick a card, any card");
@@ -48,7 +48,7 @@ public class CardTrick {
         System.out.print("Please input the card value: ");
         int value = Integer.parseInt(scan.nextLine());
 
-        for (Card card : magicHand) {
+        for (Card card : myCards) {
 
             if (card.getSuit().toLowerCase().equals(suit.toLowerCase()) && card.getValue() == value) {
 
