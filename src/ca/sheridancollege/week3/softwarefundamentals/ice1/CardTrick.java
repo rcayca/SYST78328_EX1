@@ -54,7 +54,9 @@ public class CardTrick {
     }
     
     public static void printInfo(){
-        
+        String name = "Tarnvir Singh";
+        int idNumber = 991638279;
+        String info = "I am an internation Student studing in second semester Computer programming in Sheridan college";
     }
     
 }
