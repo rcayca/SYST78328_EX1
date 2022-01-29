@@ -13,7 +13,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
  * @author Abhishek Bhattarai
- * @modified by Abhishek Bhattarai
+ * @modified by Abhishek Bhattarai/991661668
  * 
  */
 public class Card {
@@ -54,7 +54,13 @@ public class Card {
        suit=st;
    }
     public String printinfo(){
+       
      return (value+""+suit) ;
     }
-    
+    public String Info(){
+       //I’m done!
+       String Info = "Hello my name is Abhishek Bhattarai, I am in 2nd semester Computer programming course";
+        return Info;
+   }
+
 }
