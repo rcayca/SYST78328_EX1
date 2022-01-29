@@ -29,11 +29,13 @@ public class CardTrick {
             
             c.setSuit(Card.SUITS[(int)Math.round(Math.random()*3)]); //setting the suit randomly
             String suit = c.getSuit();
+            
             c.setValue((int)Math.round(1 + Math.random()*12)); //setting the value of the card randomly
             int num = c.getValue();
+            
             magicHand[i] = c; //adding the card object into the array
             
-           // System.out.println(num + suit); Printed the cards for debugging.
+           // System.out.println(num + suit); //Printed the cards for debugging.
         }
            
         //Asking user for a card
@@ -64,7 +66,10 @@ public class CardTrick {
         {
             System.out.println("Sorry, that card was not in the hand.");            
         }
-
+        
+        //Below is the code edited using GitHub.
+        System.out.println("Thank you for playing");
+        System.out.println("This code was edited by Haitham Mohamed");
     }
     
 }
