@@ -65,7 +65,7 @@ public class CardTrick {
     }
 
 	private static void printInfo() {
-            System.out.println("Yes");
+            System.out.println("Hello! My name is Mandeep Kaur. My student number is 8119935. I am a student of Computer Programming at Sheridan College.");
 	}
         
     
