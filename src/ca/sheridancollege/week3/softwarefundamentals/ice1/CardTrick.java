@@ -51,6 +51,7 @@ public class CardTrick {
         }else{
             System.out.println("Card is not in Stack.");
         }
+        printInfo();
     }
     
     public static void printInfo(){
