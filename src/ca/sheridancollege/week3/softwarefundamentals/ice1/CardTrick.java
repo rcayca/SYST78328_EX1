@@ -61,7 +61,6 @@ public class CardTrick {
     public static void printInfo(Card card) {
 
         System.out.printf("Card: %s, %d", card.getSuit(), card.getValue());
-        System.out.println("Full Name: Ilyas Bouchalkha");
-        System.out.println("Student Number: 991625734");
+        System.out.println("Full Name: Ilyas Bouchalkha" + "\nStudent Number: 991625734");
     }
 }
