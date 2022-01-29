@@ -47,7 +47,7 @@ public class CardTrick {
         //creating scanner object for user input
         Scanner input = new Scanner(System.in);
         
-        //generating c object
+        //creating c object
         Card c = new Card();
                 
         //user input
@@ -95,7 +95,7 @@ public class CardTrick {
     
     public static void printInfo() 
     {
-    
+    System.out.println("My name is Harpuneet. I am in the second semester of Computer Systems Technician - Software Engineering (pcssn) program.");
     }
     
 }
