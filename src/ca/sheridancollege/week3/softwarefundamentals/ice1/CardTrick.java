@@ -67,9 +67,11 @@ public class CardTrick {
             System.out.println("Sorry, that card was not in the hand.");            
         }
         
+        
         //Below is the code edited using GitHub.
         System.out.println("Thank you for playing");
         System.out.println("This code was edited by Haitham Mohamed");
+        //I'm Done
     }
     
 }
