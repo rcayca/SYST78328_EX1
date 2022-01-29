@@ -68,7 +68,10 @@ public class CardTrick {
             {
                 System.out.println("You are Incorrect");
             }
-       
+       public static void printinfo()
+       {
+           System.out.println("My name is Rabjeet singh. ");
+       }
         
     }
     
