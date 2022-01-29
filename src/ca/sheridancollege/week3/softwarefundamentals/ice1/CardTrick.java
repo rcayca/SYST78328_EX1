@@ -43,14 +43,14 @@ public class CardTrick {
         System.out.println("Searching for: " + key);
         for (int i = 0; i < magicHand.length; i++) {
             if ((magicHand[i].getValue() == key.getValue()) && magicHand[i].getSuit().equalsIgnoreCase(key.getSuit())) {
-                System.out.println("Card is found in magic hand" + (i+1));
+                PrintInfo("Card is found in magic hand" + (i+1));
                 found = true;
                 break;
              }
         
          }
          if (!found)
-            System.out.println("Sorry, Card is not found in magic hand.");
+             PrintInfo("Sorry, Card is not found in magic hand.");
         //I am done
     }
 }
