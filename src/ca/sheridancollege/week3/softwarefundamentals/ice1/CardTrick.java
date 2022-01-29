@@ -17,7 +17,8 @@ import java.util.Scanner;
  * @modified by Rabjeet singh wirring
  * @student id - 991650674
  */
-public class CardTrick {
+public class CardTrick 
+{
     
     public static void main(String[] args)
     {
@@ -68,11 +69,12 @@ public class CardTrick {
             {
                 System.out.println("You are Incorrect");
             }
+            printinfo();
+    } 
+            //i am done;
        public static void printinfo()
        {
            System.out.println("My name is Rabjeet singh. ");
        }
-        
-    }
-    
+       
 }
