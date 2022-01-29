@@ -56,7 +56,7 @@ public class CardTrick {
     public static void printInfo(){
         System.out.println();
         System.out.println("Info:");
-        String name = "Tarnvir Singh";
+        String name = "My name is Tarnvir Singh";
         int idNumber = 991638279;
         String info = "I am an international Student and I moved to canada in previous year.";
         System.out.println(name);
