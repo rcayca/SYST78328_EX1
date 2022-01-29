@@ -95,7 +95,8 @@ public class CardTrick {
     
     public static void printInfo() 
     {
-    System.out.println("My name is Harpuneet. I am in the second semester of Computer Systems Technician - Software Engineering (pcssn) program.");
+	    // I am done!
+            System.out.println("My name is Harpuneet. I am in the second semester of Computer Systems Technician - Software Engineering (pcssn) program.");
     }
     
 }
