@@ -41,8 +41,10 @@ public class CardTrick {
              } else {
                  System.out.print("Unfortunate");
              }
+             //I'm done
         public void printInfo(){
         System.out.println("Hello, Im Quang.";}
          }
+
     
 }
