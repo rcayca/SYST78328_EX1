@@ -47,10 +47,13 @@ public class CardTrick
           
         }
 
+        // commenting the card values in hand
+        /*
         System.out.println("Cards in hand are: ");
         for(int i=0; i< magicHand.length; i++)
             System.out.println(magicHand[i].getSuit() + " " +magicHand[i].getValue());
-         
+        */
+        
         Scanner ip = new Scanner(System.in);
         System.out.println("Guess the card in the hand: ");
         System.out.print("Type either of these options - Hearts or Diamonds or Spades or Clubs: " );
@@ -63,6 +66,11 @@ public class CardTrick
         {
             if(str.equals(magicHand[i].getSuit()) && value == magicHand[i].getValue())
                 magicHand[i].printInfo();
+            
+            /* no need to print this
+            else
+                System.out.println("Card not found");
+            */
         }
     ip.close();  
     }
