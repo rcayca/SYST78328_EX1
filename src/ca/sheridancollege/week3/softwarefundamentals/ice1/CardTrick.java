@@ -48,7 +48,7 @@ public class CardTrick {
 
         System.out.println(s);
         System.out.println();
-        System.out.println("Hello! My name is Fatoumatta Dibba. I am studying Diploma in Computer System Techncian at Sheridan College. This is my second Semester");
+        System.out.println("Hello! My name is Fatoumatta Dibba. I am studying Diploma in Computer System Techncian at Sheridan College");
     }
         
      }
