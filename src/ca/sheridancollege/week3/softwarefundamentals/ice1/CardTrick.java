@@ -44,6 +44,9 @@ public class CardTrick {
 	   else{
 		    System.out.println("The number you put is not in the random numbers");  
 	   }
+        private static void PrintInfo(String s){
+        System.out.println("Hello! My name is Dipu Dodiya. I am studying Diploma in Computer Programming at Sheridan College");
+    }
         
      }
     
