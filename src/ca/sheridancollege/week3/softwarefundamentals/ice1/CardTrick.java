@@ -10,19 +10,60 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * and then asks the user to pick a card and searches the array of cards
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author dancye
- * @modified by Megha Patel
+ * @modified by Khalid Adam
+ * date : 01/29/2022
+ * Student id=991491881
  * 
  */
+
+
+import java.lang.Math;
+import java.util.Scanner;
+        
 public class CardTrick {
     
     public static void main(String[] args)
+            
     {
+    
+        
+        
         Card[] magicHand = new Card[7];
         
-        for (int i=0; i<magicHand.length; i++)
+        int i;
+        for ( i=0; i<magicHand.length; i++)
         {
-            Card c = new Card();
-             }
+             int p;
+            Card c= new Card();
+            c.setValue((int)( Math.random() *13));
+            
+            p=(int) (Math.random() * 4);
+            
+          c.setSuit(Card.SUITS[p]);
+          
+             magicHand[i]=c;
+        }
+        
+        Scanner input= new Scanner(System.in);
+         
+        Card d= new Card();
+        System.out.println("please Enter your card number,(ace is 1,king is 2, Queenis 3 and Jack is 4");
+        d.setValue(input.nextInt());
+        
+        System.out.println("Enter the Suit: Hearts, Diamonds, Spades, Clubs");
+        d.setSuit(input.next());
+        
+        
+        if (d.getValue()== magicHand[i].getValue() && magicHand[i].getSuit().equalsIgnoreCase(d.getSuit()))
+        {
+          System.out.println("Your Cards Match");
+          
+            
+        }
+        else
+        {
+            System.out.println("Your cards dont match");
+        }
         
          }
     
