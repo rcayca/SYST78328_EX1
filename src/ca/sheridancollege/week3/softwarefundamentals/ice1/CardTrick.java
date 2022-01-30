@@ -38,12 +38,18 @@ public class CardTrick {
         }
         System.out.println("Please select any number");
 	   int x=input.nextInt();
-	   if(x==deck.length){
+	   if(x<1){
 		     System.out.println("the value is there");  
 	   }
 	   else{
 		    System.out.println("The number you put is not in the random numbers");  
 	   }
+        private static void PrintInfo(String s){
+
+        System.out.println(s);
+        System.out.println();
+        System.out.println("Hello! My name is Fatoumatta Dibba. I am studying Diploma in Computer System Techncian at Sheridan College. This is my second Semester");
+    }
         
      }
     
