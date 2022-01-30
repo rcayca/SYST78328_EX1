@@ -48,4 +48,7 @@ public class CardTrick {
             }
         }
     }
+    
+    private static void PrintInfo() {
+        System.out.println("My name is Renante Cajucom. I want to become a master coder.");
 }
