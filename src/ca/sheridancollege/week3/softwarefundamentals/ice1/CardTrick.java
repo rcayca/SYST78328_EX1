@@ -12,7 +12,7 @@ import java.util.Scanner;
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author 
  * @modified by Quang Dang
- * 
+ * 991646331
  */
 public class CardTrick {
     
@@ -41,6 +41,8 @@ public class CardTrick {
              } else {
                  System.out.print("Unfortunate");
              }
+        public void printInfo(){
+        System.out.println("Hello, Im Quang";}
          }
     
 }
