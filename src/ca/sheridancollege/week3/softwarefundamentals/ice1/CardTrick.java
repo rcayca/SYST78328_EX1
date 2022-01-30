@@ -21,6 +21,8 @@ import java.lang.Math;
 import java.util.Scanner;
         
 public class CardTrick {
+
+    private static int i;
     
     public static void main(String[] args)
             
@@ -30,10 +32,10 @@ public class CardTrick {
         
         Card[] magicHand = new Card[7];
         
-        int i;
-        for ( i=0; i<magicHand.length; i++)
+        
+        for ( int i =0; i<magicHand.length; i++)
         {
-             int p;
+            int p;
             Card c= new Card();
             c.setValue((int)( Math.random() *13));
             
@@ -54,7 +56,7 @@ public class CardTrick {
         d.setSuit(input.next());
         
         
-        if (d.getValue()== magicHand[i].getValue() && magicHand[i].getSuit().equalsIgnoreCase(d.getSuit()))
+        if (magicHand[i].getSuit().equalsIgnoreCase(d.getSuit()) && d.getValue()== magicHand[i].getValue())
         {
           System.out.println("Your Cards Match");
           
