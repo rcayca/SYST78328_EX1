@@ -22,6 +22,19 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+   
+   
+   // arg ctor for assigning obj of private data members
+   public Card(String suit, int value)
+   {
+       /*
+       this.suit = suit;
+       this.value = value;
+       */
+       
+       setSuit(suit);
+       setValue(value);
+   }
     /**
      * @return the suit
      */
@@ -48,6 +61,13 @@ public class Card {
      */
     public void setValue(int value) {
         this.value = value;
+    }
+    
+    
+    // print function
+    public void printInfo()
+    {
+        System.out.println("Card found");
     }
    
    
