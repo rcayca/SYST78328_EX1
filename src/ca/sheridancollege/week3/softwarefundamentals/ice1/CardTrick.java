@@ -64,14 +64,15 @@ public class CardTrick {
         }
         else
         {
+            
             System.out.println("Your cards dont match");
         }
-            
-            public static void Printinfo(){
+      }
+    public String PrintInfo(){
                     
-                    System.out.println(" My name is Khalid Adam. /n My student number is 991491881 and I am new to coding");
-            }
-        
+         return "I'm done /n" + "My name is Khalid Adam and i am 23 years old";
          }
-    
 }
+    
+
+
