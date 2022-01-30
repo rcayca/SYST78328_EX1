@@ -51,10 +51,12 @@ public class CardTrick {
          {System.out.println("You are correct");}
          else
          {System.out.println("Card doesnot match");}
+         printInfo();
      
       
      }
         public static void printInfo(){
+            System.out.println("My name is Parampreet Singh.I am from India.");
         
     }
 }
