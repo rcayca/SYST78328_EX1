@@ -62,6 +62,9 @@ public class Card {
     public void printInfo()
     {
         System.out.println("Card found");
+        
+        // editing the print function on github
+        System.out.println("Pushed the two Java files using Ankit_Kukreti_Ex1 branch"); 
     }
    
    
