@@ -42,7 +42,7 @@ public class CardTrick {
                  System.out.print("Unfortunate");
              }
         public void printInfo(){
-        System.out.println("Hello, Im Quang";}
+        System.out.println("Hello, Im Quang.";}
          }
     
 }
