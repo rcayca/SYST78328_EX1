@@ -69,7 +69,7 @@ public class CardTrick {
             
             public static void Printinfo(){
                     
-                    System.out.println(" my name is Khalid Adam. /n My student number is 991491881 and I am new to coding");
+                    System.out.println(" My name is Khalid Adam. /n My student number is 991491881 and I am new to coding");
             }
         
          }
